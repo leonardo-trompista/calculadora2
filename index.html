@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="carregar()">
+    
+    <header>
+
+        <h1 id="dia">Tabuada</h1>
+      
+
+    </header>
+
+    <section id="secao">
+        
+          
+        <p id="par">
+                Digite um número
+           
+              <input type="number" name="txtinicio" id="txtinicio" min="0">
+        </p>
+            
+            <p id="cont">
+                
+                <input type="button" value="Calcular" onclick="tabuada()">
+            
+            </p>
+
+            
+       
+
+        <div id="res">
+            
+        </div>
+        <div id="tabu">
+          
+            <select name="tabuada" id="seltab" size="10">
+                <option >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+              
+            </select>
+      
+        </div>
+
+
+    </section>
+
+
+    <footer>
+<h5 id="rodape">&copy;By Leonardo Abreu</h5>
+<script src="script.js"></script>
+
+    </footer>
+</body>
+</html>

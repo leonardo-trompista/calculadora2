@@ -1,0 +1,98 @@
+body {
+ background-color: rgb(90, 15, 141);
+ align-items: center;
+ font: normal 10pt Arial;
+ width: 380px;
+}
+html {
+    width: 300px;
+    height: 500px;
+}
+
+header {
+color: white;
+text-align: center;
+}
+
+section {
+
+
+background-color: rgb(175, 122, 236);
+border-radius: 30px;
+padding: 10px;
+width: 250px;
+height: 300px;
+margin: auto;
+box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.699);
+}
+
+
+
+
+#txtinicio {
+    height: 0.5cm;
+    width: 1cm;
+    margin: 0cm;
+    padding: 1px;
+    
+}
+
+#txtfim {
+    height: 0.5cm;
+    width: 1cm;
+    margin: 0cm;
+    padding: 1px;
+}
+
+#txtpasso {
+    height: 0.5cm;
+    width: 1cm;
+    margin: 0cm;
+    padding: 1px;
+}
+
+
+
+h1 {
+    
+    text-align: center;
+}
+#dia {
+    text-shadow: 0 0 5px black;
+    text-align: center;
+    } 
+#par {
+    font: normal 15pt Arial;
+    text-align: center;
+}
+#res {
+    font: normal 15pt Arial;
+    text-align: center;
+}
+#tabu {
+    margin-top: 1cm;
+    text-align: center;
+    
+
+}
+#cont {
+    height: 20px;
+    font: normal 10pt Arial;
+    text-align: center;
+}
+
+#rodape {
+    letter-spacing: .2rem;
+    padding-top: 0cm;
+    
+}
+#seltab {
+    padding: auto;
+    margin-top: auto;
+    height: 4.7cm;
+    align-items: center;
+}
+footer {
+color: white;
+text-align: center;
+}
